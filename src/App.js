@@ -1,9 +1,11 @@
-import './App.css';
+import NavBar from './components/navBar/navBar';
+import Slogan from './components/slogan/slogan';
 
 function App() {
 	return (
-		<div className="App">
-			<h1 className="text-4xl font-bold underline">Hello world!</h1>
+		<div className="font-sora overflow-y-auto overflow-x-hidden text-white h-screen px-4 py-8 bg-gradient-to-b from-purple-900 to-purple-500">
+			<NavBar />
+			<Slogan />
 		</div>
 	);
 }
